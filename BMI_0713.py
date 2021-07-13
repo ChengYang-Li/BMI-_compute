@@ -1,0 +1,7 @@
+print('BMI計算')
+name = input('請輸入名字: ')
+print('你好啊', name)
+height = int(input('你的身高是多少公分?'))
+weight = int(input('你的體重是多少公斤?'))
+bmi = weight/((height/100)**2)
+print('你的BMI為', bmi)
